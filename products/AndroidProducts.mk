@@ -70,3 +70,15 @@ endif
 ifeq (pa_d2vzw,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_d2vzw.mk
 endif
+ifeq (pa_p4,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_p4.mk
+endif
+ifeq (pa_p4tmo,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_p4tmo.mk
+endif
+ifeq (pa_p4vzw,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_p4vzw.mk
+endif
+ifeq (pa_p4wifi,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_p4wifi.mk
+endif
